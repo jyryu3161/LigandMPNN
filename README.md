@@ -27,6 +27,7 @@ For example to make a new conda environment for LigandMPNN run:
 conda create -n ligandmpnn_env python=3.11
 pip3 install torch
 pip install prody
+pip install pyparsing==3.1.1
 ```
 
 ### Main differences compared with [ProteinMPNN](https://github.com/dauparas/ProteinMPNN) code
